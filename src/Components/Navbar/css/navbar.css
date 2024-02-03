@@ -1,0 +1,12 @@
+.bg
+{
+    background-color: rgb(228, 75, 9);
+    border-radius: 10px;
+}
+.links
+{
+    text-decoration: none;
+    margin: 0 7px;
+    padding: 5px;
+    color: white;
+}

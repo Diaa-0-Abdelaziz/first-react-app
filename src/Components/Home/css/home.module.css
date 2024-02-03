@@ -1,0 +1,282 @@
+
+.main
+{
+    background-color: rgb(33 37 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+
+.main_animate_content{
+    width:300px;
+    height:300px;
+    /* border:1px solid rgb(228, 75, 9); */
+    margin:auto;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 150px 0;
+  }
+  
+  .circle{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 5px solid rgb(228, 75, 9);
+    color: rgb(228, 75, 9);
+    text-align: center;
+    font-size: 60px;
+    position:absolute;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 20s linear infinite;
+}
+  .circle2{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 5px solid rgb(228, 75, 9);
+    color: rgb(228, 75, 9);
+    text-align: center;
+    font-size: 60px;
+    position:absolute;
+    overflow:hidden;
+    margin:auto;
+    animation: circle2 20s linear infinite;
+    animation-delay: 3s;
+  }
+  .circle3{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 5px solid rgb(228, 75, 9);
+    color: rgb(228, 75, 9);
+    text-align: center;
+    font-size: 60px;
+    position:absolute;
+    overflow:hidden;
+    margin:auto;
+    animation: circle3 20s linear infinite;
+    animation-delay: 11s;
+  }
+  .circle4{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 5px solid rgb(228, 75, 9);
+    color: rgb(228, 75, 9);
+    text-align: center;
+    font-size: 60px;
+    position:absolute;
+    overflow:hidden;
+    margin:auto;
+    animation: circle4 20s linear infinite;
+    animation-delay: 14s;
+  }
+  .circle5{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 5px solid rgb(228, 75, 9);
+    color: rgb(228, 75, 9);
+    text-align: center;
+    font-size: 60px;
+    position:absolute;
+    overflow:hidden;
+    margin:auto;
+    animation: circle5 20s linear infinite;
+    animation-delay: 17s;
+  }
+  .circle6{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 5px solid rgb(228, 75, 9);
+    color: rgb(228, 75, 9);
+    text-align: center;
+    font-size: 60px;
+    position:absolute;
+    overflow:hidden;
+    margin:auto;
+    animation: circle6 20s linear infinite;
+    animation-delay: 20s;
+  }
+  .circle7{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border: 5px solid rgb(228, 75, 9);
+    color: rgb(228, 75, 9);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    overflow:hidden;
+    margin:auto;
+    animation: circle7 20s linear infinite;
+    animation-delay: 22.5s;
+  }
+  .circle_center
+  {
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    position:absolute;
+    /* top:50%; left:50%; */
+    /* transform: translate(-50%, -50%); */
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  @keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(210px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(210px)
+                rotate(-360deg);
+    }
+  }
+  
+  @keyframes circle2{
+    0%{
+      transform:rotate(0deg)
+                translate(210px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(210px)
+                rotate(-360deg);
+    }
+  }
+  
+  @keyframes circle3{
+    0%{
+      transform:rotate(0deg)
+                translateY(210px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translateY(210px)
+                rotate(-360deg);
+    }
+  }
+  
+  @keyframes circle4{
+    0%{
+      transform:rotate(0deg)
+                translateY(210px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translateY(210px)
+                rotate(-360deg);
+    }
+  }
+  @keyframes circle5{
+    0%{
+      transform:rotate(0deg)
+                translateY(210px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translateY(210px)
+                rotate(-360deg);
+    }
+  }
+  @keyframes circle6{
+    0%{
+      transform:rotate(0deg)
+                translateY(210px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translateY(210px)
+                rotate(-360deg);
+    }
+  }
+  @keyframes circle7{
+    0%{
+      transform:rotate(0deg)
+                translateY(210px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translateY(210px)
+                rotate(-360deg);
+    }
+  }
+
+
+.img 
+{
+    background-image: url(../Images/diaa.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 5px solid rgb(228, 75, 9);
+    border-radius: 50%;
+}
+.home_Message
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.star
+{
+    color: rgb(228, 75, 9);
+    /* width: fit-content; */
+    position: relative;
+    margin-bottom: 5px;
+}
+.star::after
+{
+    content: "";
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: rgb(228, 75, 9);
+}
+.star::before
+{
+    content: "";
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: rgb(228, 75, 9);
+}

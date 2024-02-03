@@ -1,0 +1,79 @@
+.main
+{
+    background-color: rgb(33 37 41);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+.contact_Header
+{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.star
+{
+    color: rgb(228, 75, 9);
+    position: relative;
+    margin-bottom: 5px;
+}
+.star::after
+{
+    content: "";
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: rgb(228, 75, 9);
+}
+.star::before
+{
+    content: "";
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 5px;
+    background-color: rgb(228, 75, 9);
+}
+/* .form
+{
+    width: 100%;
+    padding: 0 250px;
+} */
+.form_inputs
+{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(228, 75, 9);
+    outline: none;
+    background-color: rgb(33 37 41);
+    color: wheat;
+}
+.topOfInput
+{
+    color: lightcyan;
+    padding: 0;
+    text-align: left;
+    position: absolute;
+    overflow: hidden;
+    top: -26px;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+}
+.changeTop
+{
+    top: 2px;
+    transition: .5s;
+}
