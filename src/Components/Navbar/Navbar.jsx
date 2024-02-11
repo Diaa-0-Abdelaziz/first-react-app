@@ -2,11 +2,7 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import './css/navbar.css'
 export default function Navbar() {
- const [active, setActive] = useState('')
  let location =  useLocation()
-function getPathName(path){
-  setActive(path)
-  }
   return (
     <>
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
@@ -18,13 +14,13 @@ function getPathName(path){
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav ms-auto fs-5 fw-bolder">
         <li className={location.pathname === '/about' ? 'bg' : ''}>
-          <Link onClick={()=>getPathName('/about')} className="links" aria-current="page" to="about">ABOUT</Link>
+          <Link  className="links" aria-current="page" to="about">ABOUT</Link>
         </li>
         <li className={location.pathname === '/portfolio' ? 'bg' : ''}>
-          <Link onClick={()=>getPathName('/portfolio')} className="links" to="portfolio">PORTFOLIO</Link>
+          <Link  className="links" to="portfolio">PORTFOLIO</Link>
         </li>
         <li className={location.pathname === '/contact' ? 'bg' : ''}>
-          <Link onClick={()=>getPathName('/contact')} className="links" to="contact">CONTACT</Link>
+          <Link  className="links" to="contact">CONTACT</Link>
         </li>
       </ul>
     </div>
